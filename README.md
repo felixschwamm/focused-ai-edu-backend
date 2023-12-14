@@ -15,7 +15,7 @@ cd app
 ```bash
 python -m pytest
 ```
-
+(pytest must be installed on your system first)
 
 ## How to use the API
 
