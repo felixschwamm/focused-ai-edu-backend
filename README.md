@@ -20,3 +20,9 @@ python -m pytest
 ## How to use the API
 
 In order to use the API you have to call **POST /login** (a fake login endpoint) to get a JWT, which you can then set as **Authorization Header** to call the protected routes (the required permissions for each route is mentioned in the OpenAPI docs which can be found at http://localhost:8000/docs after running the server)
+
+## Existing Users (if you use the database with example data)
+
+- user_id: 1, password: 'password' (is an admin user)
+- user_id: 2, password: 'password' (is a teacher user)
+- user_id: 3, password: 'password' (is a student user)
