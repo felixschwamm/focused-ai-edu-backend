@@ -8,6 +8,9 @@ from sqlalchemy.pool import StaticPool
 from utils import generate_mock_jwt
 
 
+# hint: not all endpoints are tested here yet
+
+
 @pytest.fixture
 def test_db() -> sessionmaker:
     engine = create_engine(
